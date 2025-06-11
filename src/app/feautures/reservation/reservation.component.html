@@ -1,0 +1,44 @@
+<!-- Usar el componente de Header -->
+<app-header></app-header>
+
+<!-- Sección para Reservaciones -->
+<section class="relative w-full min-h-screen flex justify-center items-center bg-cover bg-center"
+           style="background-image: url('assets/9.png');"
+           [@fadeIn]>
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="z-10 text-center text-white px-4 max-w-3xl mx-auto">
+      <h2 class="text-5xl font-bold mb-4">¡Reserva tu cita ahora!</h2>
+      <p class="text-xl max-w-xl mx-auto mb-8">
+        Elige el servicio y horario que más te convenga. ¡Estamos listos para ayudarte!
+      </p>
+
+      <!-- Formulario de reserva -->
+      <form action="" method="post">
+        <div class="mb-4">
+          <input type="text" name="nombre" placeholder="Nombre completo" class="px-4 py-2 w-full rounded-md" required />
+        </div>
+        <div class="mb-4">
+          <input type="email" name="email" placeholder="Correo electrónico" class="px-4 py-2 w-full rounded-md" required />
+        </div>
+        <div class="mb-4">
+          <input type="tel" name="telefono" placeholder="Teléfono" class="px-4 py-2 w-full rounded-md" required />
+        </div>
+        <div class="mb-4">
+          <select name="servicio" class="px-4 py-2 w-full rounded-md">
+            <option value="pigmentacion">Pigmentación Facial</option>
+            <option value="cejas">Microblading de Cejas</option>
+            <option value="labios">Pigmentación de Labios</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <input type="datetime-local" name="fecha" class="px-4 py-2 w-full rounded-md" required />
+        </div>
+        <button type="submit" class="px-8 py-3 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition transform hover:scale-110">
+          Confirmar Reservación
+        </button>
+      </form>
+    </div>
+</section>
+
+<!-- Agregar el Footer -->
+<app-footer></app-footer>

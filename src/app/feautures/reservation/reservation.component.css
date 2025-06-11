@@ -1,0 +1,120 @@
+/* Estilo global para evitar scroll */
+html, body {
+  height: 100%;   /* Aseguramos que el body ocupe todo el alto de la pantalla */
+  margin: 0;      /* Eliminar margenes por defecto */
+  overflow-x: hidden;  /* Evitar scroll horizontal */
+}
+
+/* Aseguramos que la página ocupe siempre el alto de la pantalla sin generar scroll */
+.relative {
+  min-height: 100vh;  /* Pantalla completa */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;  /* Espacio para el header */
+  padding-bottom: 40px; /* Espacio en la parte inferior */
+}
+
+/* Estilo Glassmorphism del formulario */
+form {
+  background: rgba(255, 255, 255, 0.1);  /* Fondo semitransparente */
+  border-radius: 12px;
+  padding: 32px;
+  backdrop-filter: blur(20px);  /* Efecto de difuminado */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;  /* Ajustado para mejor proporción */
+}
+
+/* Contenedor del texto */
+.text-center {
+  width: 100%;
+  padding: 0 20px;
+}
+
+/* Estilo del título (con letra más delgada) */
+.text-5xl {
+  margin-bottom: 20px;
+  font-weight: normal;  /* Reducir el grosor de la fuente */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Estilo del párrafo (con letra más delgada) */
+.text-xl {
+  margin-bottom: 30px;
+  font-weight: normal;  /* Reducir el grosor de la fuente */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  opacity: 0.9;
+}
+
+/* Estilo de los inputs */
+input, select {
+  background-color: rgba(255, 255, 255, 0.3);  /* Fondo difuso */
+  border: none;
+  color: #000000;  /* Color negro para el texto */
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  width: 100%; /* Asegura que los inputs ocupen todo el ancho disponible */
+  font-weight: normal;  /* Reducir grosor de la fuente en los inputs */
+}
+
+/* Cambiar color de placeholder a gris oscuro */
+input::placeholder, select::placeholder {
+  color: #4A4A4A;  /* Cambiar el color del placeholder a gris oscuro */
+}
+
+/* Estilo del input de fecha */
+input[type="datetime-local"]::placeholder {
+  color: #4A4A4A;  /* Cambiar el color del placeholder de fecha */
+}
+
+/* Estilo al hacer focus en los inputs */
+input:focus, select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);  /* Fondo al hacer focus */
+  color: #000000;  /* Color negro cuando el campo tiene foco */
+}
+
+/* Estilo del botón */
+button {
+  background-color: #f59e0b;
+  color: white;
+  font-weight: normal;  /* Fuente más delgada */
+  padding: 14px 32px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #d97706;
+  transform: scale(1.05);
+}
+
+/* Estilo para el texto seleccionado en el select */
+select, select option {
+  color: #4A4A4A; /* Color oscuro para el texto seleccionado y las opciones */
+}
+
+/* Cuando el select tiene un valor seleccionado (no es el placeholder) */
+select:not(:invalid) {
+  color: #4A4A4A; /* Cambia a blanco cuando hay una selección válida */
+}
+
+/* Estilo para el texto del placeholder en el select */
+select:invalid {
+  color: #000; /* Color del placeholder */
+}
+
+/* Estilo de las opciones en el dropdown */
+select option {
+  background: rgba(255, 255, 255, 0.9); /* Fondo más opaco para mejor legibilidad */
+  color: #333; /* Texto oscuro para las opciones */
+}

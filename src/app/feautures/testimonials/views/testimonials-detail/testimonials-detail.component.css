@@ -1,0 +1,196 @@
+/* testimonial-detail.component.css */
+
+/* Estilos generales de la sección */
+.testimonials-section {
+  background-color: #f7f7f7;
+  padding: 4rem 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Encabezado de la sección */
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.section-header h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #333;
+  padding: 1rem 0;
+}
+
+/* Contenedor principal del carrusel */
+.cards-container {
+  width: 100%;
+  overflow-x: auto;
+  padding-bottom: 2rem;
+}
+
+/* Eliminar barras de scroll pero mantener funcionalidad */
+.cards-container::-webkit-scrollbar {
+  display: none;
+}
+
+.cards-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Contenedor de las tarjetas */
+.cards-scroll-wrapper {
+  display: inline-flex;
+  gap: 2rem;
+  padding: 0 calc((100% - 1200px) / 2 + 1rem);
+  width: auto;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilos de cada tarjeta de testimonio */
+.testimonial-card {
+  flex: 0 0 auto;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenido de la tarjeta */
+.card-content {
+  padding: 3rem 1.5rem;
+  position: relative;
+  flex-grow: 1;
+}
+
+.testimonial-text {
+  font-style: italic;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #555;
+  position: relative;
+  padding: 0 1.5rem;
+  margin: 0;
+}
+
+/* Iconos de comillas */
+.quote-icon-start,
+.quote-icon-end {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #f59e0b;
+  position: absolute;
+}
+
+.quote-icon-start {
+  top: 0;
+  left: 0;
+}
+
+.quote-icon-end {
+  bottom: 0;
+  right: 0;
+}
+
+/* Pie de tarjeta */
+.card-footer {
+  padding: 2rem 1rem 1.5rem;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 0 0 12px 12px;
+  position: relative;
+}
+
+/* Imagen del cliente */
+.client-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto del cliente */
+.client-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.client-position {
+  font-size: 0.875rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Espaciado al final */
+.end-spacer {
+  min-width: calc((100% - 1200px) / 2 + 1rem);
+  height: 1px;
+}
+
+/* Responsive para pantallas medianas */
+@media (max-width: 1240px) {
+  .cards-scroll-wrapper {
+    padding: 0 2rem;
+  }
+  
+  .end-spacer {
+    min-width: 2rem;
+  }
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 3rem 0;
+  }
+  
+  .section-header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .cards-scroll-wrapper {
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+  }
+  
+  .testimonial-card {
+    width: 280px;
+  }
+  
+  .card-content {
+    padding: 2.5rem 1.25rem;
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .end-spacer {
+    min-width: 1.5rem;
+  }
+}

@@ -1,0 +1,43 @@
+/* Animación de cortina */
+@keyframes curtainSlide {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+}
+
+.animate-curtain {
+  animation: curtainSlide 1s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  z-index: 5;
+}
+
+/* Animaciones de texto */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-20px); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in forwards;
+}
+
+/* Efecto glassmorphism para el header */
+header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+

@@ -1,0 +1,53 @@
+<div class="auto-flip-carousel">
+  <div class="carousel-header">
+    <h2>Servicios Profesionales</h2>
+    <p>Técnicas avanzadas para realzar tu belleza</p>
+  </div>
+
+  <div class="carousel-track">
+    <div class="flip-card" 
+         *ngFor="let service of services; let i = index" 
+         [class.active]="i === currentIndex"
+         [class.prev]="i === (currentIndex - 1 + services.length) % services.length"
+         [class.next]="i === (currentIndex + 1) % services.length"
+         [@cardAnimation]="i === currentIndex ? 'active' : i === (currentIndex - 1 + services.length) % services.length ? 'prev' : i === (currentIndex + 1) % services.length ? 'next' : ''"
+         (mouseenter)="stopAutoRotation()"
+         (mouseleave)="resumeAutoRotation()">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="image-overlay"></div>
+          <img [src]="service.image" [alt]="service.name">
+          <div class="card-front-content">
+            <h3>{{service.name}}</h3>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <h3>{{service.name}}</h3>
+          <p class="description">{{service.description}}</p>
+          <div class="pricing">
+            <div class="price-tag">
+              <span>Precio Regular</span>
+              <strong>{{service.price}}</strong>
+            </div>
+            <div class="price-tag promo">
+              <span>Precio en Gira</span>
+              <strong>{{service.promo}}</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-dots">
+    <span *ngFor="let item of services; let i = index" 
+          [class.active]="i === currentIndex"
+          (click)="currentIndex = i; stopAutoRotation(); resumeAutoRotation()"></span>
+  </div>
+
+  <div class="text-center mt-8">
+    <button class="px-8 py-3 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition transform hover:scale-110">
+      <a routerLink="/services">Explorar Más</a>
+    </button>
+  </div>
+</div>

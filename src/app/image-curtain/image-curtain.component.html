@@ -1,0 +1,44 @@
+<app-header></app-header>
+
+<!-- SECCIÓN 1: Slider con cortina (fullscreen) -->
+<section class="relative w-full h-screen overflow-hidden">
+  <!-- Imagen siguiente -->
+  <div
+    class="absolute inset-0 bg-cover bg-center transition-all duration-700 parallax-bg"
+    [style.background-image]="'url(' + slides[nextIndex].image + ')'">
+    <div class="absolute inset-0 bg-gray-900/30 backdrop-blur-sm"></div>
+  </div>
+
+  <!-- Imagen actual con cortina -->
+  <div
+    class="absolute inset-0 bg-cover bg-center"
+    [style.background-image]="'url(' + slides[currentIndex].image + ')'"
+    [class.animate-curtain]="isAnimating">
+    <div class="absolute inset-0 bg-gray-900/30 backdrop-blur-sm"></div>
+  </div>
+
+  <!-- Texto -->
+  <div class="absolute inset-0 flex items-center justify-center z-10 px-6">
+    <div
+      class="text-center max-w-4xl mx-auto"
+      [ngClass]="{
+        'fade-out': isAnimating,
+        'fade-in': !isAnimating
+      }">
+      <h1 class="text-5xl md:text-8xl font-extrabold mb-6 tracking-tight leading-tight text-white">
+        {{ slides[currentIndex].title }}
+      </h1>
+      <p class="text-xl md:text-3xl font-medium mb-10 max-w-3xl mx-auto text-amber-300">
+        {{ slides[currentIndex].subtitle }}
+      </p>
+      <button
+        class="px-10 py-4 bg-amber-500 text-black font-bold rounded-full hover:bg-amber-400 transition transform hover:scale-110">
+        <a routerLink="/reservacion-cita">RESERVAR TU CITA</a>
+      </button>
+    </div>
+  </div>
+</section>
+<app-image-gallery ></app-image-gallery>
+<app-testimonials-detail></app-testimonials-detail>>
+<app-chat-window></app-chat-window>
+<app-footer></app-footer>

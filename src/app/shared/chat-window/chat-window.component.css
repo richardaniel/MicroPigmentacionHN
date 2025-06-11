@@ -1,0 +1,141 @@
+/* Estilo para la ventana de chat */
+.chat-window {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+}
+
+.chat-header {
+  background-color: #f59e0b;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chat-body {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.user-message {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  max-width: 80%;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background-color: #e8e8e8;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  max-width: 80%;
+  align-self: flex-start;
+}
+
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+.chat-footer button {
+  background-color: #f59e0b;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.chat-footer button:hover {
+  background-color: #d97706;
+}
+
+.chat-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f59e0b;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.chat-toggle-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.chat-toggle-btn:hover {
+  background-color: #d97706;
+  animation-play-state: paused;
+}
+
+/* Pulse animation for chat toggle button */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(245, 158, 11, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+}
+
+/* Para pantallas móviles */
+@media (max-width: 768px) {
+  .chat-window {
+    width: calc(100% - 20px);
+    height: 80vh;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+  }
+
+  .chat-toggle-btn {
+    padding: 12px;
+  }
+
+  .chat-toggle-btn img {
+    width: 24px;
+    height: 24px;
+  }
+}
