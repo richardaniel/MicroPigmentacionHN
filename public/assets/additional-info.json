@@ -1,0 +1,28 @@
+{
+  "retoque_rules": {
+    "labios_sps": "200 LPS por cada mes de retraso después de los 2 meses. A los 12 meses, se cobra como procedimiento nuevo.",
+    "labios_gira": "500 LPS por cada gira que falte el paciente. A los 12 meses, se cobra como procedimiento nuevo.",
+    "cejas_delineado_sps": "200 LPS por cada mes de retraso en retoques.",
+    "cejas_delineado_gira": "500 LPS por cada gira que falte. A los 12 meses, se cobra como procedimiento nuevo."
+  },
+  "giras": [
+    {
+      "location": "Danlí",
+      "dates": "28 y 29 de junio de 2025"
+    },
+    {
+      "location": "Tegucigalpa",
+      "dates": "31 de junio y 1 de julio de 2025"
+    }
+  ],
+  "promociones": {
+    "maraton_laser": {
+      "date": "25 de junio de 2025",
+      "price": "2,000 LPS por sesión, 500 LPS por segunda sesión"
+    },
+    "giveaway": {
+      "date": "Por confirmar en junio de 2025",
+      "details": "Promoción especial para clientes"
+    }
+  }
+}

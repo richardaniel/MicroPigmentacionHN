@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Procedimiento de Cejas Hair Stroke y Pixel Brows",
+    "price": "3,500 LPS + 100 LPS Vitamina (Gira 4,600 LPS)",
+    "description": "Técnica avanzada para un resultado natural en cejas.",
+    "image": "assets/1.png"
+  },
+  {
+    "name": "Procedimiento de Relleno de Color de Labios",
+    "price": "4,500 LPS + 100 LPS Vitamina (Gira 5,600 LPS)",
+    "description": "Pigmentación de labios para un resultado duradero.",
+    "image": "assets/2.png"
+  },
+  {
+    "name": "Procedimiento de Relleno de Color de Labios Masculinos",
+    "price": "5,000 LPS + 100 LPS Vitamina (Gira 6,100 LPS)",
+    "description": "Pigmentación de labios adaptada para hombres.",
+    "image": "assets/3.png"
+  },
+  {
+    "name": "Procedimiento de Delineado de Ojos (Inferior, Superior u Omega)",
+    "price": "2,000 LPS con Vitamina (Gira 3,100 LPS)",
+    "description": "Delineado preciso para realzar la mirada.",
+    "image": "assets/4.png"
+  },
+  {
+    "name": "Procedimiento de Delineado de Ojos Soft Liner",
+    "price": "3,000 LPS + 100 LPS Vitamina (Gira 3,600 LPS)",
+    "description": "Delineado suave para un efecto natural.",
+    "image": "assets/5.png"
+  },
+  {
+    "name": "Procedimiento de Extensión de Pestañas Set Clásico",
+    "price": "1,000 LPS (Gira 2,000 LPS, Refil 1,000 LPS)",
+    "description": "Pestañas clásicas para un look natural.",
+    "image": "assets/6.png"
+  },
+  {
+    "name": "Procedimiento de Extensión de Pestañas Híbridas/Volumen",
+    "price": "1,500 LPS (Gira 2,000 LPS, Refil 1,000 LPS)",
+    "description": "Pestañas con efecto voluminoso y dramático.",
+    "image": "assets/7.png"
+  },
+  {
+    "name": "Procedimiento de Refil de Extensión de Pestañas",
+    "price": "600 LPS Clásica, 700 LPS Híbridas, 800 LPS Volumen",
+    "description": "Mantenimiento para extensiones de pestañas.",
+    "image": "assets/8.png"
+  },
+  {
+    "name": "Procedimiento de Lifting de Pestañas",
+    "price": "600 LPS (Gira 1,000 LPS)",
+    "description": "Levantamiento para una mirada más abierta.",
+    "image": "assets/9.png"
+  },
+  {
+    "name": "Procedimiento de Laminado de Cejas",
+    "price": "800 LPS (Gira 1,000 LPS)",
+    "description": "Diseño y fijación profesional de cejas.",
+    "image": "assets/10.png"
+  },
+  {
+    "name": "Procedimiento de Trico Capilar Técnica Densidad",
+    "price": "28,000 LPS (Gira 30,000 LPS)",
+    "description": "Técnica para aumentar densidad capilar.",
+    "image": "assets/11.png"
+  },
+  {
+    "name": "Procedimiento de Trico Capilar Técnica Rapado",
+    "price": "32,500 LPS (Gira 33,750 LPS)",
+    "description": "Técnica para simular cabello rapado.",
+    "image": "assets/12.png"
+  },
+  {
+    "name": "Procedimiento de Trico en Barba",
+    "price": "16,000 LPS (Gira 20,000 LPS)",
+    "description": "Micropigmentación para definir la barba.",
+    "image": "assets/13.png"
+  },
+  {
+    "name": "Procedimiento de Corrección de Cejas",
+    "price": "Evaluación 300 LPS (Gira 500 LPS)",
+    "description": "Corrección de cejas previamente trabajadas.",
+    "image": "assets/14.png"
+  },
+  {
+    "name": "Procedimiento de Eliminación Láser en Cejas",
+    "price": "Evaluación (Gira 5,000-8,000 LPS)",
+    "description": "Eliminación de pigmentos no deseados en cejas.",
+    "image": "assets/15.png"
+  },
+  {
+    "name": "Procedimiento de Corte de Cejas",
+    "price": "100 LPS (Gira 100 LPS)",
+    "description": "Diseño básico de cejas.",
+    "image": "assets/2.jpg"
+  },
+  {
+    "name": "Procedimiento de Plasma Rico en Plaquetas",
+    "price": "2,000 LPS (Gira 3,000 LPS)",
+    "description": "Rejuvenecimiento con plasma.",
+    "image": "assets/3.jpg"
+  },
+  {
+    "name": "Procedimiento de Plasma Capilar",
+    "price": "2,500 LPS (Gira 3,000 LPS)",
+    "description": "Tratamiento capilar rejuvenecedor.",
+    "image": "assets/8.jpg"
+  },
+  {
+    "name": "Procedimiento de Carboxiterapia Localizada",
+    "price": "4,000 LPS x 5 sesiones (1 sesión 1,500 LPS)",
+    "description": "Tratamiento reafirmante con CO2 médico.",
+    "image": "assets/1.png"
+  },
+  {
+    "name": "Procedimiento de CO2 Fraccionado",
+    "price": "5,000 LPS x 2 sesiones (1 sesión 3,000 LPS)",
+    "description": "Renovación celular para piel más joven.",
+    "image": "assets/2.png"
+  },
+  {
+    "name": "Procedimiento de Hilos Tensores",
+    "price": "Evaluación",
+    "description": "Lifting no quirúrgico con hilos tensores.",
+    "image": "assets/3.png"
+  },
+  {
+    "name": "Procedimiento de HydraFacial",
+    "price": "1,500 LPS (Gira 2,000 LPS)",
+    "description": "Limpieza facial profunda con hidratación intensiva.",
+    "image": "assets/4.png"
+  },
+  {
+    "name": "Procedimiento de Plasma Gel",
+    "price": "Evaluación",
+    "description": "Tratamiento rejuvenecedor con plasma gel.",
+    "image": "assets/5.png"
+  },
+  {
+    "name": "Procedimiento de Radiofrecuencia",
+    "price": "1,500 LPS por sesión",
+    "description": "Reafirmación de piel mediante radiofrecuencia.",
+    "image": "assets/6.png"
+  },
+  {
+    "name": "Procedimiento de Limpieza Facial Profunda + Peeling",
+    "price": "1,200 LPS (Gira 2,000 LPS)",
+    "description": "Limpieza profunda con peeling para piel renovada.",
+    "image": "assets/7.png"
+  },
+  {
+    "name": "Procedimiento de Hidratación de Labios",
+    "price": "2,000 LPS (Gira 3,500 LPS)",
+    "description": "Hidratación intensiva para labios suaves.",
+    "image": "assets/8.png"
+  },
+  {
+    "name": "Retoque de Cejas (2 meses)",
+    "price": "1,000 LPS + 100 LPS AYD (Gira 1,200 LPS + AYD)",
+    "description": "Mantenimiento de cejas tras 2 meses.",
+    "image": "assets/9.png"
+  },
+  {
+    "name": "Retoque de Delineado de Ojos (2 meses)",
+    "price": "1,000 LPS + 100 LPS AYD (Gira 1,200 LPS + AYD)",
+    "description": "Mantenimiento de delineado tras 2 meses.",
+    "image": "assets/10.png"
+  },
+  {
+    "name": "Retoque de Relleno de Color de Labios (2 meses)",
+    "price": "1,500 LPS + 100 LPS AYD (Gira 1,800 LPS + AYD)",
+    "description": "Mantenimiento de color de labios tras 2 meses.",
+    "image": "assets/11.png"
+  },
+  {
+    "name": "Retoque de Delineado de Ojos Soft Liner (2 meses)",
+    "price": "1,500 LPS + 100 LPS AYD (Gira 2,000 LPS + AYD)",
+    "description": "Mantenimiento de delineado soft liner tras 2 meses.",
+    "image": "assets/12.png"
+  },
+  {
+    "name": "Retoque de Magic Shading/Hairstroke (2 meses)",
+    "price": "1,500 LPS + 100 LPS AYD (Gira 2,000 LPS + AYD)",
+    "description": "Mantenimiento de cejas con técnica especial tras 2 meses.",
+    "image": "assets/13.png"
+  },
+  {
+    "name": "Procedimiento de BB Glow",
+    "price": "2,500 LPS (Gira 3,000 LPS)",
+    "description": "Tratamiento para unificar tono de piel.",
+    "image": "assets/14.png"
+  },
+  {
+    "name": "Procedimiento de Cejas (Junio 2025)",
+    "price": "2,500 LPS + 100 LPS Vitamina (Gira 3,600 LPS)",
+    "description": "Promoción especial de cejas para junio.",
+    "image": "assets/15.png"
+  },
+  {
+    "name": "Procedimiento de Cejas Masculinas (Junio 2025)",
+    "price": "4,000 LPS + 100 LPS Vitamina (Gira 5,100 LPS)",
+    "description": "Cejas definidas para hombres en promoción.",
+    "image": "assets/cejas-masculinas.png"
+  },
+  {
+    "name": "Procedimiento de Cejas Magic Shading (Junio 2025)",
+    "price": "3,000 LPS + 100 LPS Vitamina (Gira 4,600 LPS)",
+    "description": "Técnica de sombreado para cejas en promoción.",
+    "image": "assets/magic-shading-junio.png"
+  },
+  {
+    "name": "Procedimiento de Decarbon Peeling",
+    "price": "2,000 LPS (Gira 3,000 LPS)",
+    "description": "Peeling con carbón activado para piel renovada.",
+    "image": "assets/decarbon-peeling.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Bigote",
+    "price": "1,200 LPS",
+    "description": "Depilación láser para área de bigote.",
+    "image": "assets/depilacion-bigote.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Barba",
+    "price": "1,700 LPS",
+    "description": "Depilación láser para área de barba.",
+    "image": "assets/depilacion-barba.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Axila",
+    "price": "1,700 LPS",
+    "description": "Depilación láser para axilas.",
+    "image": "assets/depilacion-axila.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Bikini Brasileño",
+    "price": "1,800 LPS",
+    "description": "Depilación láser para bikini brasileño.",
+    "image": "assets/depilacion-bikini-brasileno.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Espalda",
+    "price": "2,100 LPS",
+    "description": "Depilación láser para espalda completa.",
+    "image": "assets/depilacion-espalda.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Mentón",
+    "price": "1,400 LPS",
+    "description": "Depilación láser para área de mentón.",
+    "image": "assets/depilacion-menton.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Cara Completa",
+    "price": "2,000 LPS",
+    "description": "Depilación láser para toda la cara.",
+    "image": "assets/depilacion-cara.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Brazos Completos",
+    "price": "2,100 LPS",
+    "description": "Depilación láser para brazos completos.",
+    "image": "assets/depilacion-brazos.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Piernas Completas",
+    "price": "2,100 LPS",
+    "description": "Depilación láser para piernas completas.",
+    "image": "assets/depilacion-piernas.png"
+  },
+  {
+    "name": "Depilación Láser (5 Sesiones) - Bikini Completo",
+    "price": "2,100 LPS",
+    "description": "Depilación láser para bikini completo.",
+    "image": "assets/depilacion-bikini-completo.png"
+  },
+  {
+    "name": "Cejas + Carboxiterapia (1 Sesión) - Promoción Junio",
+    "price": "3,200 LPS",
+    "description": "Paquete promocional de cejas y carboxiterapia.",
+    "image": "assets/promo-cejas-carbox.png"
+  },
+  {
+    "name": "Labios Full Lips (Gira) - Promoción Junio",
+    "price": "5,500 LPS",
+    "description": "Pigmentación de labios en promoción para giras.",
+    "image": "assets/labios-full-gira.png"
+  },
+  {
+    "name": "Labios Técnica Clásica con Keny",
+    "price": "3,500 LPS (Gira 5,000 LPS)",
+    "description": "Técnica clásica de pigmentación de labios.",
+    "image": "assets/labios-clasica.png"
+  },
+  {
+    "name": "Carboxiterapia 5 Sesiones + Faja Obsequiada",
+    "price": "6,500 LPS",
+    "description": "Paquete de carboxiterapia con faja incluida.",
+    "image": "assets/carboxiterapia-faja.png"
+  },
+  {
+    "name": "CO2 Fraccionado (2 Sesiones) - Promoción Junio",
+    "price": "5,000 LPS",
+    "description": "Renovación celular en promoción.",
+    "image": "assets/co2-fraccionado-promo.png"
+  },
+  {
+    "name": "CO2 Fraccionado (1 Sesión) - Promoción Junio",
+    "price": "3,500 LPS",
+    "description": "Sesión individual de CO2 fraccionado.",
+    "image": "assets/co2-fraccionado-sesion.png"
+  },
+  {
+    "name": "Radiofrecuencia (5 Sesiones) - Promoción Junio",
+    "price": "4,000 LPS",
+    "description": "Paquete de 5 sesiones de radiofrecuencia.",
+    "image": "assets/radiofrecuencia-promo.png"
+  },
+  {
+    "name": "Limpieza Facial + Peeling + Serum - Promoción Junio",
+    "price": "3,000 LPS (Solo Gira)",
+    "description": "Tratamiento facial completo en promoción.",
+    "image": "assets/limpieza-serum.png"
+  },
+  {
+    "name": "Serum 4 en 1 - Promoción Junio",
+    "price": "1,000 LPS",
+    "description": "Serum multifuncional en promoción.",
+    "image": "assets/serum-4in1.png"
+  },
+  {
+    "name": "Pestañas Cualquier Técnica - Promoción Junio",
+    "price": "1,200 LPS",
+    "description": "Extensiones de pestañas en promoción.",
+    "image": "assets/pestanas-promo.png"
+  },
+  {
+    "name": "Trico/Rapado (20% Descuento) - Promoción Junio",
+    "price": "26,000 LPS (Gira 27,000 LPS)",
+    "description": "Técnica de tricopigmentación con descuento.",
+    "image": "assets/trico-rapado-promo.png"
+  },
+  {
+    "name": "Trico/Barba (25% Descuento) - Promoción Junio",
+    "price": "12,000 LPS (Gira 15,000 LPS)",
+    "description": "Tricopigmentación en barba con descuento.",
+    "image": "assets/trico-barba-promo.png"
+  },
+  {
+    "name": "Maratón Láser (25 Junio 2025)",
+    "price": "2,000 LPS por sesión (2da sesión 500 LPS)",
+    "description": "Sesiones de láser en maratón promocional.",
+    "image": "assets/maraton-laser.png"
+  }
+]
