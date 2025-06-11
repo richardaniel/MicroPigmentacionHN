@@ -78,7 +78,7 @@ export class ChatWindowComponent implements OnInit {
         temperature: 0.7
       }, {
         headers: {
-          'Authorization': `Bearer ${environment.openaiApiKey}`,
+          // 'Authorization': `Bearer ${environment.openaiApiKey}`,
           'Content-Type': 'application/json'
         }
       }).subscribe({
