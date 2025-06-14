@@ -21,7 +21,8 @@ export class ReservationComponent implements AfterViewInit {
 
 
   formulario!: FormGroup;
-  direccion = 'Clínica Estética XYZ, Tegucigalpa, Honduras';
+  direccion = `21102 San Pedro Sula, Cortés`;
+
 
   ngAfterViewInit(): void {
     this.viewMap();
