@@ -38,7 +38,10 @@
     </div>
   </div>
 </section>
+<app-promociones (scrollToFooter)="irAlFooter()"></app-promociones>
 <app-image-gallery ></app-image-gallery>
 <app-testimonials-detail></app-testimonials-detail>>
 <app-chat-window></app-chat-window>
-<app-footer></app-footer>
+<div #footer>
+  <app-footer></app-footer>
+</div>

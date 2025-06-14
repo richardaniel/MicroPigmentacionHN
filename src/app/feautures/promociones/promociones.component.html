@@ -1,0 +1,55 @@
+<section class="py-6 px-4 sm:px-10 lg:px-20 bg-gradient-to-br from-white via-slate-50 to-white">
+  <h2
+    class="text-4xl sm:text-5xl font-extrabold text-center text-slate-800 mb-10 relative animate-fade-in-up"
+  >
+    NUESTRAS PROMOCIONES DEL MES DE {{ mesActual }}
+  </h2>
+
+  <div class="overflow-hidden relative">
+    <div class="flex animate-slide gap-8 w-max" [style.animation-duration]="(promociones.length * 4) + 's'">
+      <ng-container *ngFor="let promo of promociones">
+        <!-- Tarjeta principal -->
+        <div
+          class="group relative flex-none w-[400px] sm:w-[460px] md:w-[520px] rounded-2xl shadow-lg bg-white border border-slate-200 overflow-hidden"
+        >
+          <div class="h-[680px] relative">
+            <img
+              [src]="promo.url"
+              alt="Promoción"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+
+            <!-- Botón animado -->
+            <a
+              href="#footer"
+              class="absolute bottom-6 left-1/2 transform -translate-x-1/2 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-xl"
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- Repetir para loop -->
+      <ng-container *ngFor="let promo of promociones">
+        <div
+          class="group relative flex-none w-[400px] sm:w-[460px] md:w-[520px] rounded-2xl shadow-lg bg-white border border-slate-200 overflow-hidden"
+        >
+          <div class="h-[680px] relative">
+            <img
+              [src]="promo.url"
+              alt="Promoción"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+           <a
+  (click)="irAlFooter()"
+  class="absolute bottom-6 left-1/2 transform -translate-x-1/2 translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out bg-amber-500 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-full shadow-xl cursor-pointer"
+>
+  Más información
+</a>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+<div class="bg-white p-6 rounded-lg shadow-md">
+  <h2 class="text-2xl font-semibold mb-6 text-gray-800">Promociones subidas</h2>
+
+  <div *ngIf="promociones.length; else sinPromo" class="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div *ngFor="let img of promociones" class="relative group rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+      <img [src]="img.url" alt="Promoción" class="w-full h-32 object-cover" />
+
+      <!-- Íconos superpuestos -->
+      <div class="absolute top-2 right-2 flex gap-2 opacity-0 group-hover:opacity-100 transition-all">
+        <!-- Ver imagen -->
+        <a [href]="img.url" target="_blank" title="Ver imagen"
+           class="bg-white p-1.5 rounded-full shadow hover:bg-gray-100">
+          <svg class="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+          </svg>
+        </a>
+
+        <!-- Eliminar -->
+        <button (click)="eliminarImagen(img.nombre_archivo)" title="Eliminar imagen"
+           class="bg-white p-1.5 rounded-full shadow hover:bg-red-100">
+          <svg class="h-5 w-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #sinPromo>
+    <p class="text-gray-500 text-center">No hay promociones subidas aún.</p>
+  </ng-template>
+</div>

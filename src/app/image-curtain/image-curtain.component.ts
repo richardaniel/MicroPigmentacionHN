@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ViewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { HeaderComponent } from '../shared/header/header.component';
 import { FooterComponent } from '../shared/footer/footer.component';
@@ -7,6 +7,8 @@ import AOS from "aos";
 import { ImageGalleryComponent } from '../feautures/business-services/components/image-gallery/image-gallery.component';
 import { ChatWindowComponent } from '../shared/chat-window/chat-window.component';
 import { TestimonialsDetailComponent } from '../feautures/testimonials/views/testimonials-detail/testimonials-detail.component';
+import { PromocionesComponent } from '../feautures/promociones/promociones.component';
+import { ElementRef } from '@angular/core';
 
 
 @Component({
@@ -18,8 +20,8 @@ import { TestimonialsDetailComponent } from '../feautures/testimonials/views/tes
     FooterComponent,
     ImageGalleryComponent,
     ChatWindowComponent,
-    TestimonialsDetailComponent
-
+    TestimonialsDetailComponent,
+    PromocionesComponent
   ],
   templateUrl: './image-curtain.component.html',
   styleUrls: ['./image-curtain.component.css']
@@ -84,5 +86,11 @@ export class ImageCurtainComponent implements OnInit {
         carousel.style.transform = 'translateX(0)';
       }
     }
+  }
+
+   @ViewChild('footer') footer!: ElementRef;
+
+  irAlFooter(): void {
+    this.footer.nativeElement.scrollIntoView({ behavior: 'smooth' });
   }
 }

@@ -11,28 +11,30 @@ import { Component, OnInit } from '@angular/core';
 export class TestimonialsDetailComponent implements OnInit {
   reviews = [
     {
-      name: 'Ana Rodríguez',
-      text: 'La micropigmentación de cejas cambió mi vida. Después de años de rellenarlas cada mañana, ahora me despierto con unas cejas perfectas. El trabajo fue tan natural que hasta mi estilista preguntó si eran mis cejas reales.',
+      name: 'Aryany Ayala',
+      text: 'Me encantó la atención increíble , son unos artistas , te evalúan todo desde que tipo de piel edad , toman su tiempo para hacerte la evaluación , 100 recomendando mis cejitas están perfectas.',
       image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&auto=format&fit=crop',
-      position: 'Paciente de cejas'
+      position: ''
     },
     {
-      name: 'Carlos Méndez',
-      text: 'Como sobreviviente de cáncer, la micropigmentación capilar me devolvió la confianza. El realismo de cada pelo es increíble. Nadie puede creer que no es mi cabello natural cuando me ven sin pañuelo.',
+      name: 'EL Vis',
+      text: 'Esto es una manera de poder sentirse en mas confianza contigo mismo y tu apariencia física. Una única experiencia en Micropigmentación Honduras, La recomiendo al 1,000 por 1,000. Muy satisfecho por el trabajo elaborado por el profesional quien ejecuto mi procedimiento en micropigmentación.',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop',
-      position: 'Paciente oncológico'
+      position: ''
     },
     {
-      name: 'María González',
-      text: 'Mis labios siempre fueron muy pálidos. La micropigmentación me dio un color natural que no desaparece. Después de 2 años, todavía mantiene un tono rosado perfecto. ¡Vale cada centavo!',
+      name: 'Estrellita Ramirez',
+      text: 'Hacen excelente trabajo profesional, ético.. muy buen trato Asia los pacientes .hoy me fui aser mi retoque y quede encantada. Nilo piensen para ir y hacerse unas cejas bien hechas con profesionales  gracias.',
       image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop',
-      position: 'Paciente de labios'
+      position: ''
     },
     {
-      name: 'Laura Sánchez',
-      text: 'El efecto sombra de ojos permanente ha sido mi mejor inversión de belleza. Ahorro 15 minutos cada mañana y mi maquillaje siempre luce impecable, incluso después de nadar o hacer ejercicio.',
+      name: 'Nilser Pineda',
+      text: `Hoy fui atendida por la mejor en Micropigmentación Honduras, y me atrevo a hacerlo público porque 1. Soy exigente y conozco la calidad.
+             Gracias primero por cambiar completamente mi rostro su buen trabajo se nota, y segundo gracias por explicar y aclarar todas mis dudas, gracias por la confianza que transmiten. De verdad déjeme felicitarlos por ser los mejores.
+            Sobre todo supo tomar su tiempo para que yo saliera satisfecha`,
       image: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=200&auto=format&fit=crop',
-      position: 'Paciente de ojos'
+      position: ''
     },
    
   ];

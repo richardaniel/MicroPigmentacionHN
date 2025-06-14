@@ -1,0 +1,43 @@
+<div class="bg-white p-6 rounded shadow max-w-2xl mx-auto">
+  <h2 class="text-xl font-semibold mb-4">Subir promociones</h2>
+
+  <input
+    type="file"
+    accept="image/*"
+    multiple
+    (change)="onFilesSelected($event)"
+    class="mb-4 w-full border border-gray-300 rounded px-3 py-2"
+  />
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4" *ngIf="previews.length > 0">
+    <div *ngFor="let preview of previews" class="border rounded overflow-hidden">
+      <img [src]="preview" class="w-full h-32 object-cover" />
+    </div>
+  </div>
+
+  <button
+    (click)="subirImagenes()"
+    [disabled]="imagenesSeleccionadas.length === 0 || cargando"
+    class="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 disabled:opacity-50"
+  >
+    {{ cargando ? 'Subiendo...' : 'Subir ' + imagenesSeleccionadas.length + ' imagen(es)' }}
+  </button>
+
+  <div *ngIf="cargando" class="mt-4 w-full bg-gray-200 h-4 rounded">
+    <div
+      class="bg-blue-500 h-4 rounded text-xs text-white text-center"
+      [style.width.%]="progreso"
+    >
+      {{ progreso }}%
+    </div>
+  </div>
+
+  <div *ngIf="urlsSubidas.length > 0" class="mt-4">
+    <h3 class="text-sm font-semibold mb-2">Imágenes subidas:</h3>
+    <ul class="text-xs break-all space-y-1">
+      <li *ngFor="let url of urlsSubidas" class="text-blue-600 underline">
+        {{ url }}
+      </li>
+    </ul>
+  </div>
+</div>
